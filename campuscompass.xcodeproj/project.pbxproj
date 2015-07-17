@@ -16,12 +16,19 @@
 		9B0CDE631ABDA026001022AE /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B0CDE611ABDA026001022AE /* Main_iPhone.storyboard */; };
 		9B0CDE661ABDA026001022AE /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B0CDE641ABDA026001022AE /* Main_iPad.storyboard */; };
 		9B0CDE691ABDA026001022AE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B0CDE681ABDA026001022AE /* ViewController.m */; };
-		9B0CDE6B1ABDA026001022AE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B0CDE6A1ABDA026001022AE /* Images.xcassets */; };
 		9B0CDE721ABDA026001022AE /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B0CDE711ABDA026001022AE /* XCTest.framework */; };
 		9B0CDE731ABDA026001022AE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B0CDE4F1ABDA026001022AE /* Foundation.framework */; };
 		9B0CDE741ABDA026001022AE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B0CDE531ABDA026001022AE /* UIKit.framework */; };
 		9B0CDE7C1ABDA026001022AE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9B0CDE7A1ABDA026001022AE /* InfoPlist.strings */; };
 		9B0CDE7E1ABDA026001022AE /* campuscompassTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B0CDE7D1ABDA026001022AE /* campuscompassTests.m */; };
+		9B0CDE8C1ABDA368001022AE /* CampusListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B0CDE8B1ABDA368001022AE /* CampusListTableViewController.m */; };
+		9B2138CA1AC075EF003D8894 /* Campus.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B2138C91AC075EF003D8894 /* Campus.m */; };
+		9B30D0F21AD051DF00D77D38 /* GeoPointCompass.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B30D0F11AD051DF00D77D38 /* GeoPointCompass.m */; };
+		9B53BABC1AC30E4A004024DC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B53BABB1AC30E4A004024DC /* Images.xcassets */; };
+		9B88D6BA1AC2325B00A9516C /* 11063069_10205431013388500_1099263665_n-2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9B88D6B91AC2325B00A9516C /* 11063069_10205431013388500_1099263665_n-2.jpg */; };
+		9B88D6BD1AC233D200A9516C /* CompassViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B88D6BC1AC233D200A9516C /* CompassViewController.m */; };
+		9BA594E61AC1E6A20002EF3D /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BA594E51AC1E6A20002EF3D /* CoreLocation.framework */; };
+		9BA594E81AC1E6AD0002EF3D /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BA594E71AC1E6AD0002EF3D /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,12 +56,23 @@
 		9B0CDE651ABDA026001022AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
 		9B0CDE671ABDA026001022AE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		9B0CDE681ABDA026001022AE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		9B0CDE6A1ABDA026001022AE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		9B0CDE701ABDA026001022AE /* campuscompassTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = campuscompassTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B0CDE711ABDA026001022AE /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		9B0CDE791ABDA026001022AE /* campuscompassTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "campuscompassTests-Info.plist"; sourceTree = "<group>"; };
 		9B0CDE7B1ABDA026001022AE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9B0CDE7D1ABDA026001022AE /* campuscompassTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = campuscompassTests.m; sourceTree = "<group>"; };
+		9B0CDE8A1ABDA368001022AE /* CampusListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CampusListTableViewController.h; sourceTree = "<group>"; };
+		9B0CDE8B1ABDA368001022AE /* CampusListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CampusListTableViewController.m; sourceTree = "<group>"; };
+		9B2138C81AC075EF003D8894 /* Campus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Campus.h; sourceTree = "<group>"; };
+		9B2138C91AC075EF003D8894 /* Campus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Campus.m; sourceTree = "<group>"; };
+		9B30D0F01AD051DF00D77D38 /* GeoPointCompass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeoPointCompass.h; sourceTree = "<group>"; };
+		9B30D0F11AD051DF00D77D38 /* GeoPointCompass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeoPointCompass.m; sourceTree = "<group>"; };
+		9B53BABB1AC30E4A004024DC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9B88D6B91AC2325B00A9516C /* 11063069_10205431013388500_1099263665_n-2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "11063069_10205431013388500_1099263665_n-2.jpg"; sourceTree = "<group>"; };
+		9B88D6BB1AC233D200A9516C /* CompassViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompassViewController.h; sourceTree = "<group>"; };
+		9B88D6BC1AC233D200A9516C /* CompassViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CompassViewController.m; sourceTree = "<group>"; };
+		9BA594E51AC1E6A20002EF3D /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		9BA594E71AC1E6AD0002EF3D /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +80,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BA594E81AC1E6AD0002EF3D /* MapKit.framework in Frameworks */,
+				9BA594E61AC1E6A20002EF3D /* CoreLocation.framework in Frameworks */,
 				9B0CDE521ABDA026001022AE /* CoreGraphics.framework in Frameworks */,
 				9B0CDE541ABDA026001022AE /* UIKit.framework in Frameworks */,
 				9B0CDE501ABDA026001022AE /* Foundation.framework in Frameworks */,
@@ -103,6 +123,8 @@
 		9B0CDE4E1ABDA026001022AE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9BA594E71AC1E6AD0002EF3D /* MapKit.framework */,
+				9BA594E51AC1E6A20002EF3D /* CoreLocation.framework */,
 				9B0CDE4F1ABDA026001022AE /* Foundation.framework */,
 				9B0CDE511ABDA026001022AE /* CoreGraphics.framework */,
 				9B0CDE531ABDA026001022AE /* UIKit.framework */,
@@ -114,14 +136,16 @@
 		9B0CDE551ABDA026001022AE /* campuscompass */ = {
 			isa = PBXGroup;
 			children = (
+				9B2A3D231ACAEE6F00866340 /* Libraries */,
+				9B0CDE891ABDA0C3001022AE /* Controllers */,
+				9B0CDE871ABDA0B0001022AE /* Models */,
 				9B0CDE5E1ABDA026001022AE /* AppDelegate.h */,
 				9B0CDE5F1ABDA026001022AE /* AppDelegate.m */,
 				9B0CDE611ABDA026001022AE /* Main_iPhone.storyboard */,
 				9B0CDE641ABDA026001022AE /* Main_iPad.storyboard */,
-				9B0CDE671ABDA026001022AE /* ViewController.h */,
-				9B0CDE681ABDA026001022AE /* ViewController.m */,
-				9B0CDE6A1ABDA026001022AE /* Images.xcassets */,
+				9B88D6B91AC2325B00A9516C /* 11063069_10205431013388500_1099263665_n-2.jpg */,
 				9B0CDE561ABDA026001022AE /* Supporting Files */,
+				9B53BABB1AC30E4A004024DC /* Images.xcassets */,
 			);
 			path = campuscompass;
 			sourceTree = "<group>";
@@ -153,6 +177,37 @@
 				9B0CDE7A1ABDA026001022AE /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9B0CDE871ABDA0B0001022AE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9B2138C81AC075EF003D8894 /* Campus.h */,
+				9B2138C91AC075EF003D8894 /* Campus.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		9B0CDE891ABDA0C3001022AE /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9B0CDE8A1ABDA368001022AE /* CampusListTableViewController.h */,
+				9B0CDE8B1ABDA368001022AE /* CampusListTableViewController.m */,
+				9B0CDE671ABDA026001022AE /* ViewController.h */,
+				9B0CDE681ABDA026001022AE /* ViewController.m */,
+				9B88D6BB1AC233D200A9516C /* CompassViewController.h */,
+				9B88D6BC1AC233D200A9516C /* CompassViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		9B2A3D231ACAEE6F00866340 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				9B30D0F01AD051DF00D77D38 /* GeoPointCompass.h */,
+				9B30D0F11AD051DF00D77D38 /* GeoPointCompass.m */,
+			);
+			name = Libraries;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,7 +287,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				9B0CDE661ABDA026001022AE /* Main_iPad.storyboard in Resources */,
-				9B0CDE6B1ABDA026001022AE /* Images.xcassets in Resources */,
+				9B88D6BA1AC2325B00A9516C /* 11063069_10205431013388500_1099263665_n-2.jpg in Resources */,
+				9B53BABC1AC30E4A004024DC /* Images.xcassets in Resources */,
 				9B0CDE631ABDA026001022AE /* Main_iPhone.storyboard in Resources */,
 				9B0CDE5A1ABDA026001022AE /* InfoPlist.strings in Resources */,
 			);
@@ -254,7 +310,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				9B0CDE691ABDA026001022AE /* ViewController.m in Sources */,
+				9B88D6BD1AC233D200A9516C /* CompassViewController.m in Sources */,
 				9B0CDE601ABDA026001022AE /* AppDelegate.m in Sources */,
+				9B0CDE8C1ABDA368001022AE /* CampusListTableViewController.m in Sources */,
+				9B30D0F21AD051DF00D77D38 /* GeoPointCompass.m in Sources */,
+				9B2138CA1AC075EF003D8894 /* Campus.m in Sources */,
 				9B0CDE5C1ABDA026001022AE /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -474,6 +534,7 @@
 				9B0CDE831ABDA026001022AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9B0CDE841ABDA026001022AE /* Build configuration list for PBXNativeTarget "campuscompassTests" */ = {
 			isa = XCConfigurationList;
@@ -482,6 +543,7 @@
 				9B0CDE861ABDA026001022AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
