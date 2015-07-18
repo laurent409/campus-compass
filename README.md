@@ -2,6 +2,6 @@
 
 ###Details
 This iPhone application :
-- Get all SUPINFO Campus informations from an API (verify this API is always available)
-- Localise the nearest campus
-- Display campus informations and location with device map
+- Gets all SUPINFO Campus informations from an API (verify this API is always available)
+- Localises the nearest campus
+- Displays campus informations and location with device map
